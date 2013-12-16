@@ -1,7 +1,7 @@
 {
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
-	"detect_slow_plugins": false,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -15,6 +15,7 @@
 		"*.o",
 		"*.a",
 		"*.lib",
+		"*.log",
 		"*.so",
 		"*.dylib",
 		"*.ncb",
@@ -25,43 +26,39 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.pdf",
-		"chromedriver.log"
+		"*.pdf"
 	],
 	"folder_exclude_patterns":
 	[
 		"data",
+		".zeus.sock",
 		".git",
 		".svn",
 		".hg",
 		"CVS",
 		".sass-cache",
 		".bundle",
+		"bundle",
 		".rbx",
-		"bin",
 		"script",
-		"tmp",
-		"log"
+		"tmp"
 	],
-	"font_face": "Monaco",
-	"font_size": 21.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"ignored_packages": [],
 	"line_padding_bottom": 0.5,
 	"line_padding_top": 0.5,
 	"new_window_settings":
 	{
 		"show_minimap": false
 	},
-	"remember_open_files": false,
+	"rulers":
+	[
+		80
+	],
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"theme": "Soda Light.sublime-theme",
+	//"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
